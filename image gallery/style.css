@@ -1,0 +1,42 @@
+
+
+.gallery-container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 25%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.prev,.next {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.prev:hover,.next:hover {
+    background-color: #3e8e41;
+}
